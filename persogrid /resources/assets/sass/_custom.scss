@@ -1,0 +1,325 @@
+
+
+#footer{
+  padding: 20px;
+  max-height: 82%;
+  color:#fff;
+  background: #333;
+  width: 100%;
+  display: block;
+
+}
+#search_text{
+  width: 370px;
+  height: 50px;
+
+}
+
+
+
+.main_container{
+  width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+  clear: both;
+  display: inline-block;
+  position: relative;
+  overflow: auto;
+
+
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.contain
+{
+  width: 100%;
+  max-height: 100%;
+  min-height: 100%;
+}
+.foot{
+  position: absolute;
+  bottom: 0;
+
+  clear: both;
+  min-height: 20%;
+}
+.search_button{
+
+  background-color: #f4511e;
+  border: none;
+  color: white;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 20px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.search_button:hover {opacity: 1}
+
+.navbar_new{
+
+  background-color: #f5f5f5;
+  border: 1px solid #ddd;
+  padding-top: 14px;
+
+}
+.navbar{
+  margin:auto;
+}
+.navbar-right>li.li_active >a{
+  color: #FF6A00;
+
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+
+
+
+#table1 {
+  text-align:center;
+  margin-left:auto;
+  margin-right:auto;
+  width:100px;
+}
+
+
+
+::placeholder {
+  color:  #ccc;
+  opacity: 1; /* Firefox */
+}
+
+:-ms-input-placeholder { /* Internet Explorer 10-11 */
+  color: #ccc;
+}
+
+::-ms-input-placeholder { /* Microsoft Edge */
+  color: #ccc;
+}
+#dropdown1
+{
+  background-color: transparent;
+  border: none;
+
+}
+
+.fieldset
+{
+  border: 1px solid #ddd !important;
+  margin: 5px;
+  xmin-width: 50%;
+
+  padding: 20px;
+  position: relative;
+  border-radius:5px;
+  background-color:#f5f5f5;
+}
+
+.legend
+{
+  font-size:14px;
+  font-weight:bold;
+  margin-bottom: 0px;
+  width: 35%;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px 5px 5px 10px;
+  background-color: #ffffff;
+}
+.weiter_button{
+  border: none ;
+  background-color: transparent;
+  color:#FF6A00;
+  font-size:25px;
+  font-weight:bold;
+  float: right;
+}
+
+.business_button{
+
+
+
+
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 25px;
+
+  display: inline-block;
+  text-decoration: none;
+
+  overflow: auto;
+
+
+
+  background: #FF6A00;
+  font-weight: bold;
+  color:white;
+  border:0 none;
+  border-radius: 1px;
+  cursor:pointer;
+
+  margin: 10px 5px;
+}
+
+.user_button{
+
+
+  border: 4px solid #FF6A00;
+  color: #FF6A00;
+  padding: 10px 10px;
+  text-align: center;
+  font-size: 25px;
+  margin: 4px 2px;
+  border-radius: 0px;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  overflow: auto;
+
+}
+
+
+
+
+.hr_line{
+  weight: 70px;
+  height: 5px;
+  border: 0;
+  box-shadow: 0 10px 10px -10px #8c8b8b inset;
+}
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+
+#msform{
+  width: 65%;
+  margin:50px auto;
+  text-align:center;
+  position: relative;
+}
+
+#progressbar{
+  margin-bottom: 30px;
+  overflow: hidden;
+  counter-reset: step;
+}
+#progressbar li{
+  list-style-type: none;
+  text-transform: uppercase;
+  font-size: 12px;
+  width:50%;
+  float: left;
+  position: relative;
+
+}
+#msform fieldset{
+  box-shadow: 0 0 15px 1px rgba(0,0,0,0.4);
+  border-radius: 3px;
+  box-sizing: border-box;
+  width:80%;
+  margin: 0 10%;
+  background-color: white;
+  padding: 20px 30px;
+  position: relative;
+
+}
+#progressbar li:before{
+  content:counter(step);
+  counter-increment: step;
+  width:40px;
+  line-height: 40px;
+  display:block;
+  font-size: 20px;
+  color:#333;
+  background: white;
+  border-radius: 3px;
+  margin:0 auto 5px auto;
+
+}
+#progressbar li:after{
+  content:'';
+  width:100%;
+  height: 2px;
+  background: white;
+  position: absolute;
+  left:-50%;
+  top:20px;
+  z-index: -1;
+
+
+}
+
+#progressbar li:first-child:after{
+  content: none;
+
+
+}
+#progressbar li.active:before,#progressbar li.active:after{
+  background: #FF6A00;
+  color:white;
+}
+#msform fieldset:not(:first-of-type)
+{
+  display: none;
+}
+#msform input{
+  padding:20px;
+
+  border-radius:3px;
+   width: 100%;
+ border:1px solid #ccc;
+  color:#2C3E50;
+  font-size: 13px;
+  background: transparent;
+  height: 40px;
+  box-sizing: border-box;
+
+  font-style: normal;
+
+}
+
+#msform .textarea1{
+  height:100px;
+  width: 95%;
+  background-color: transparent;
+  border:1px solid #ccc;
+
+
+}
+#msform .action-button{
+  width: 100px;
+  background: #FF6A00;
+  font-weight: bold;
+  color:white;
+  border:0 none;
+
+  border-radius: 1px;
+  cursor:pointer;
+  padding: 10px 5px;
+  margin: 10px 5px;
+}
+#msform .action-button:hover,#msform .action-button:focus{
+  box-shadow: 0 0 0 2px white,0 0 0 3px #FF6A00;
+}
+#msform .zuruck_button
+{
+  width: 100px;
+
+  font-weight: bold;
+
+  cursor:pointer;
+  padding: 10px 5px;
+
+
+  color: #8c8b8b;
+
+border:none;
+}
+
+
